@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="personal.css"/>
+		<title>Carly Hoffman</title>
+
+		<script src = "personal.js"
+
+		id = "bmi" type="text/javascript">
+    		
+		</script>
+	</head>
+
+	<body>
+		<h1>Carly Hoffman</h1>
+
+		<div><img src = "me.jpg"/></div>
+
+
+		<div>
+			<p>I was born in Bryn Mawr hospital on December 14th, 1996. I grew up in Wynnewood, Pennsylvania-- a suburb right outside of Philly. I have two brothers, Josh and Steven. Steven is a year older than me and Josh is three years older than me. Josh went to Ursinus College. Steven went to Brandeis and Temple Universities. I went to Tulane University and now I go to the University of Pittsburgh.</p>
+
+
+			<p>I currently attend the <span><a href= "https://www.pitt.edu/"> University of Pittsburgh</a></span>. I live off campus on Meyran ave. I am about to start my senior year and I am majoring in Computer Science. My favorite things to do near <span>Pitt</span> are studying in Schenley Plaza and going to Shadyside for dinner.</p>
+			<p>When I am not studying, I like to:
+				<ul>
+					<li>Hang out with friends</li>
+					<li>Watch <a href="https://www.netflix.com/browse">Netflix</a></li>
+					<li>Talk to my family</li>
+					<li>Workout at <a href="http://www.peterseneventscenter.com/">The Pete</a></li>
+				</ul>
+			</p>
+			</div>
+
+			<div id = "clock" style="background-color: white;">
+				<p style="color: navy; font-weight: bold; background-color: white; font-size: 36px;">Countdown to graduation!</p>
+				<script language="JavaScript" >
+					TargetDate = "7/26/2018 9:00 AM";
+					BackColor = "white";
+					ForeColor = "navy";
+					CountActive = true;
+					CountStepper = -1;
+					LeadingZero = true;
+					DisplayFormat = "%%D%% days %%H%% hours %%M%% minutes %%S%% seconds";
+					FinishMessage = "Time for camp!";
+				</script>
+				<script language="JavaScript" src="http://scripts.hashemian.com/js/countdown.js"></script>
+			</div>
+
+			<div id= "bmi">
+
+				<h1>Body Mass Index Calculator</h1>
+				<p style="background-color: white;">Enter your height: <input type="text" id="height"/>
+    				<select style="background-color: white;" type="multiple" id="heightunits">
+        				<option value="meters" selected="selected">meters</option>
+        				<option value="inches">inches</option>
+   					</select>
+     			</p>
+				<p style="background-color: white;">Enter your weight: <input type="text" id="weight"/>
+    				<select style="background-color: white;" type="multiple" id="weightunits">
+        				<option value="kg" selected="selected">kilograms</option>
+        				<option value="lb">pounds</option>
+    				</select>
+				</p>
+				<input style="background-color: ##1C2957;"type="submit" value="computeBMI" onclick="computeBMI();">
+				<h1>Your BMI is: <span id="output">?</span></h1>
+
+				<h2>This means you are: <span id="comment"> ?</span> </h2> 
+				
+			</div>
+			
+
+
+
+			
+
+
+	</body>
+
+
+
+</html>

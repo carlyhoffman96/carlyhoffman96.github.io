@@ -1,0 +1,52 @@
+img{
+	align:left;
+	height: 250px;
+	width: 250px;
+	margin-right: 50px;
+	float: left;
+}
+body{
+	font-family: Times;
+	float:right;
+	background-color: white;
+
+	
+}
+h1{
+	text-align: center;
+}
+a:hover{
+	color: navy;
+}
+span{
+	color:#1C2957;
+	font-weight: bold;
+}
+*{
+	background-color: #CDB87D;
+}
+h1{
+	color: white;
+	background-color: #1C2957;
+	width: 200px;
+}
+#clock{
+	background-color: white;
+	font-family: navy;
+}
+#bmi{
+	background-color: white;
+	float: right;
+	margin-right: 100px;
+}
+h2{
+	background-color: white;
+}
+#comment{
+	background-color: white;
+	color: navy;
+}
+#output{
+	background-color: #1C2957;
+	color:white;
+}
